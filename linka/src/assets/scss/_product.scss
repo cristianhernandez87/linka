@@ -1,0 +1,25 @@
+// product
+
+.product {
+    &-products { margin-top: -100vh; }
+    &-card {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 300px;
+        padding: 1rem;
+        // opacity: .3;
+        .img {
+            width: calc(100% - 9rem);
+            margin-bottom: 1rem;
+        }
+        .title {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .text {
+            font-size: 1rem;
+            margin-bottom: 1rem;
+        }
+    }
+}
