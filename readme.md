@@ -115,9 +115,9 @@ REACT_APP_STRAPI_URL=http://localhost:1337
 **Frontend (React):**
 
 ```bash
-npm start
+npm run dev
 # o
-yarn start
+yarn run dev
 ```
 
 **Backend (Strapi - opcional si usas instancia remota):**

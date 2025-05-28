@@ -1,6 +1,6 @@
 
 import Header from './components/Header';
-import Hero from './secctions/Hero';
+import Hero from './sections/Hero';
 // import ProductList from './components/ProductList';
 
 function App() {
